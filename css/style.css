@@ -1,0 +1,61 @@
+/* style.css */
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.firstblock {
+    height: 450px;
+    width: 100vw;
+    background-color: #71cb98;
+  }
+
+a {
+    color: red;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: blue;
+    text-decoration: line-through;
+    filter: invert(100%);
+    transition: 300ms ease-in-out;
+}
+
+.pp {
+   padding:20px;
+   width: 300px;
+   height: 400px;
+   float:left;
+}
+
+.intro {
+    padding:20px;
+    float:left;
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 350px;
+    top: 80px;
+}
+
+.github, .linkedin {
+    border: none;
+    padding: 20px;
+    background-color: #71cb98;
+}
+
+.socials {
+    position:absolute; 
+    left:350px; 
+    top:250px;
+
+}
+
+.github img, .linkedin img {
+    width: 220px;
+    height: 220px;
+
+}
