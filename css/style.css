@@ -11,8 +11,9 @@ h1 {
 
 .card {
     display: flex;
+    flex: 1;
     background-color: #71cb98;
-    width: auto;
+    width: 100vw auto;
     height: auto;
 }
 
