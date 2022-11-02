@@ -1,16 +1,18 @@
 /* style.css */
 
-@media screen and (max-width: 575px) {
-    body {
-      display: block;
-    }
-  }
-  
+
+
 h1 {
     display: flex;
     justify-content: left;
     font-family: 'Courier New', Courier, monospace;
 }
+
+@media screen and (max-width: 575px) {
+    .card {
+      display: block;
+    }
+  }
 
 .card {
     display: flex;
