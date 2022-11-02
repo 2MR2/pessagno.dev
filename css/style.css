@@ -109,11 +109,10 @@ a:hover{
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     .card {
-        flex-shrink: 2;
         background-color:#71cb98;
-        width:fit-content;
+        width: auto;
     }
     .pp img {
         height: 350px;
