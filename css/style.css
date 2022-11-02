@@ -11,9 +11,8 @@ h1 {
 
 .card {
     display: flex;
-    flex: 1;
     background-color: #71cb98;
-    width: 100vw auto;
+    width:100%;
     height: auto;
 }
 
@@ -30,7 +29,6 @@ h1 {
 
 
 p {
-    padding: 0 px;
     margin-left: 30px;
 
 }
