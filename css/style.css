@@ -85,17 +85,23 @@ a:hover{
     .card {
       display: block;
     }
+    .intro {margin-left: 0px;
+    }
     .pp img {
         margin-left: auto;
         margin-right: auto;
         height: 450px;
         width: 320px;
     }
+    .github, .linkedin {
+        margin-left:auto;
+        margin-right: auto;
+    }
     .github img,
     .linkedin img {
         width: 100px;
         height: 100px;
-        margin-left: auto;
+        margin-left:auto;
         margin-right: auto;
     }
     .intro {
