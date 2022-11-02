@@ -1,14 +1,11 @@
 /* style.css */
 
 @media screen and (max-width: 575px) {
-    #main {
+    body {
       display: block;
     }
   }
-
-body {
-}
-
+  
 h1 {
     display: flex;
     justify-content: left;
