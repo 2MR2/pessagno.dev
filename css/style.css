@@ -109,7 +109,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 975px) {
+@media screen and (min-width: 576px) {
     .card {
         flex-shrink: 1;
         background-color: aqua;
