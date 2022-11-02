@@ -108,3 +108,10 @@ a:hover{
         margin: 0px;
     }
 }
+
+@media screen and (max-width: 975px) {
+    .card {
+        flex-shrink: 1;
+        background-color: aqua;
+    }
+}
