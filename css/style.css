@@ -15,12 +15,6 @@ h1 {
     height: auto;
 }
 
-@media screen and (max-width: 575px) {
-    .card {
-      display: block;
-    }
-  }
-
 .intro {
     display: flex;
     flex: 1;
@@ -84,4 +78,21 @@ a:hover{
     text-decoration: line-through;
     filter: invert(100%);
     transition: 300ms ease-in-out;
+}
+
+
+@media screen and (max-width: 575px) {
+    .card {
+      display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .github img,
+    .linkedin img {
+        width: 100px;
+        height: 100px;
+    }
 }
