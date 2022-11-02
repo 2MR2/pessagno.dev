@@ -111,7 +111,20 @@ a:hover{
 
 @media screen and (min-width: 576px) {
     .card {
-        flex-shrink: 1;
+        flex-shrink: 2;
         background-color: aqua;
+        width:fit-content;
+    }
+    .pp img {
+        height: 350px;
+        width: 260px;
+    }
+    .intro {
+        font-size: medium;
+    }
+    .github img,
+    .linkedin img {
+        width: 100px;
+        height: 100px;
     }
 }
