@@ -1,8 +1,6 @@
 /* style.css */
 
-body {
-    width: 100vw;
-}
+
 
 h1 {
     display: flex;
@@ -86,6 +84,7 @@ a:hover{
 @media screen and (max-width: 575px) {
     .card {
       display: block;
+      width: fit-content;
     }
     .intro {margin-left: 0px;
     }
@@ -111,20 +110,25 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 700px) {
     .card {
         background-color:#71cb98;
+        width: 100vw;
     }
     .pp img {
         height: 350px;
         width: 260px;
     }
     .intro {
+        margin-left: 0px;
         font-size: 18px;
     }
     .github img,
     .linkedin img {
         width: 100px;
         height: 100px;
+        margin-left: 5px;
     }
 }
+
+
