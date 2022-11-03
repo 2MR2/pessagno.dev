@@ -91,7 +91,7 @@ a:hover{
     .pp img {
         margin-left: 0px;
         margin-right: 0px;
-        height: 450px;
+        height: 440px;
         width: 320px;
     }
     .github, .linkedin {
@@ -110,7 +110,7 @@ a:hover{
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 900px) {
     .card {
         background-color:#71cb98;
         width: 100vw;
